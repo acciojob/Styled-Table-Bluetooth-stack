@@ -1,1 +1,28 @@
 /* your code */
+
+#holder{
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse:collapse;
+	border-radius: 10px;
+	overflow: hidden;
+	width:100%;
+}
+#holder th, #holder td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+#holder th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background: goldenrod;
+	color: white;
+}
+#holder tr:nth-child(even){
+	background:lightgray
+}
+#holder tr:hover{
+	background:lightcyan
+}
+
+
